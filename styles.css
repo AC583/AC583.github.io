@@ -1,0 +1,143 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav-link.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  
+  .image-on-top {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 20px;
+    /* Adds space around the image */
+    background-color: lightblue;
+    top: 0;
+    border-radius: 20px;
+    /* Curved corners */
+    left: 0;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .text-container{
+    background-color: #1f99c1;
+    top: 20px;
+    border-radius: 20px;
+    /* Curved corners */
+    left: 0;
+    object-fit: cover;
+    opacity: 0.8;
+    padding: 30px;
+  }
+  
+  .chunk-text-container{
+    background-color: #1f99c1;
+    top: 20px;
+    border-radius: 20px;
+    /* Curved corners */
+    left: 0;
+    object-fit: cover;
+    opacity: 0.8;
+    padding: 30px;
+    left:30%;
+    max-width: 70%;
+  
+  }
+  .chunk-container{
+      display: flex;
+      align-items: center; /* vertically align items */
+      gap: 20px; /* space between image and text */
+    
+  }
+  
+  
+  
+  
+  .text{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .image-container {
+    width: 200px;
+    height:200px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    color: #2c2121;
+    font-size: 12px;
+    font-weight: bold;
+    
+    background: #eee;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .element-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .element-table th,
+  .element-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .element-table thead {
+    background-color: #f4f4f4;
+  }
+  
+  .element-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .element-table tr:hover {
+    background-color: #eef;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    width: 300px;
+    text-align: center;
+  }
+  .calendar div {
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 4px;
+  }
+  .calendar div:nth-child(20){
+    background-color: #ff957a;
+  }
+  
